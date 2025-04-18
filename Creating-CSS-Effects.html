@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Paws & Whiskers</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffe5b4;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        nav a {
+            margin-left: 1.5rem;
+            text-decoration: none;
+            color: #444;
+            font-weight: 600;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 2rem;
+            background-color: #fff2e1;
+        }
+
+        .hero h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 3rem 2rem;
+        }
+
+        .feature {
+            background-color: #ffffff;
+            padding: 1.5rem;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: scale(1.05);
+        }
+
+        .feature img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature img:hover {
+            transform: scale(1.1) rotate(2deg);
+        }
+
+        footer {
+            background-color: #ffe5b4;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Paws & Whiskers</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>We Care For Your Pets</h2>
+        <p>Our goal is to provide the best care, grooming, and love for your furry family members. Whether it's a bath, a trim, or just a cuddle — we've got it covered.</p>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <img src="https://cdn.pixabay.com/photo/2016/11/21/15/47/cat-1846380_1280.jpg" alt="Grooming">
+            <h3>Grooming</h3>
+            <p>Professional grooming to keep your pet clean, happy, and looking adorable.</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn.pixabay.com/photo/2015/03/26/09/54/dog-690176_1280.jpg" alt="Adoption">
+            <h3>Adoption</h3>
+            <p>Looking to adopt? We help match you with the perfect furry companion.</p>
+        </div>
+        <div class="feature">
+            <img src="https://cdn.pixabay.com/photo/2016/02/19/10/00/dog-1209743_1280.jpg" alt="Pet Sitting">
+            <h3>Pet Sitting</h3>
+            <p>Need a hand while you're away? We offer reliable pet sitting services.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Paws & Whiskers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
